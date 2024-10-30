@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <StackPanel Margin="10,10,0,0" HorizontalAlignment="Left" Width="600" Height="270"
+                    VerticalAlignment="Top" Background="#FFECE4D4">
+            <StackPanel Height="100" Margin="5,5,5,5" Background="#FFF3DFDF"/>
+        </StackPanel>
+        <Button x:Name="OrderButton" Content="確定訂購" HorizontalAlignment="Left" Margin="640,15,0,0" 
+                VerticalAlignment="Top" Width="110" Height="55" FontSize="16"/>
 
     </Grid>
 </Window>
